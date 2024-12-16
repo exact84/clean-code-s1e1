@@ -36,14 +36,14 @@
   display: flex;
 }
 .main__ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .main__li, .header3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .main__add-edit-btn, .main__delete-btn {
   background: none;
@@ -136,14 +136,14 @@ input,button{
 
 /* Edit Task */
 .main__ul .main__li .main__task[type=text] {
-  display:none
+  display: none
 }
 
 .main__ul .main__li.main__edit-mode-task .main__task[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .main__ul .main__li.main__edit-mode-task .main__label {
-  display:none;
+  display: none;
 }
